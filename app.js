@@ -3,7 +3,7 @@ const jsonServer = require("json-server");
 const morgan = require("morgan");
 
 const server = jsonServer.create();
-const router = jsonServer.router("db.json");
+const router = jsonServer.router("bd.json");
 const middlewares = jsonServer.defaults();
 const PORT = process.env.PORT;
 
